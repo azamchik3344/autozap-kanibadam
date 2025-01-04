@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автозапчасти Канибадам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Автозапчасти в Канибадам</h1>
+            <p>Столица Таджикистана | Телефон: +992 400 066 502</p>
+            <nav>
+                <ul>
+                    <li><a href="#company">О компании</a></li>
+                    <li><a href="#register">Регистрация</a></li>
+                    <li><a href="#login">Вход</a></li>
+                    <li><a href="#prices">Цены</a></li>
+                    <li><a href="#sales">Продажи</a></li>
+                    <li><a href="#parts">Автозапчасти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="company">
+            <h2>О компании</h2>
+            <p>Мы предлагаем широкий ассортимент качественных автозапчастей в Канибадам.</p>
+        </section>
+        <section id="register">
+            <h2>Регистрация</h2>
+            <p>Создайте аккаунт, чтобы получить доступ к специальным предложениям и скидкам.</p>
+        </section>
+        <section id="login">
+            <h2>Вход</h2>
+            <p>Уже зарегистрированы? Войдите в свой аккаунт.</p>
+        </section>
+        <section id="prices">
+            <h2>Цены</h2>
+            <p>Пример цен:</p>
+            <ul>
+                <li>Фильтр масляный: 100 TJS</li>
+                <li>Свечи зажигания: 80 TJS</li>
+                <li>Тормозные колодки: 120 TJS</li>
+            </ul>
+        </section>
+        <section id="sales">
+            <h2>Продажи</h2>
+            <p>Сезонные скидки на все автозапчасти!</p>
+        </section>
+        <section id="parts">
+            <h2>Автозапчасти</h2>
+            <p>Двигатели, трансмиссии, подвеска и многое другое. Все для вашего автомобиля!</p>
+        </section>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Автозапчасти Канибадам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Регистрация</h1>
+            <p>Заполните форму для создания аккаунта</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form action="submit_registration.php" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Подтвердите пароль:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Автозапчасти Канибадам. Все права защищены.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены - Автозапчасти Канибадам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page" class="fade-in">
+        <header>
+            <h1>Цены на автозапчасти</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="transition-link">Главная</a></li>
+                    <li><a href="registration.html" class="transition-link">Регистрация</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Популярные запчасти</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Фото</th>
+                            <th>Название</th>
+                            <th>Описание</th>
+                            <th>Цена (TJS)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/oil-filter.jpg" alt="Фильтр масляный"></td>
+                            <td>Фильтр масляный</td>
+                            <td>Качественный фильтр для вашего двигателя</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/spark-plug.jpg" alt="Свечи зажигания"></td>
+                            <td>Свечи зажигания</td>
+                            <td>Для бензиновых двигателей</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/brake-pads.jpg" alt="Тормозные колодки"></td>
+                            <td>Тормозные колодки</td>
+                            <td>Усиленные тормозные колодки</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/battery.jpg" alt="Аккумулятор"></td>
+                            <td>Аккумулятор</td>
+                            <td>12В, подходит для большинства авто</td>
+                            <td>450</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Автозапчасти Канибадам. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+�бадам. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
